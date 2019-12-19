@@ -18,6 +18,15 @@
         <item name="tabSelectedTextColor"></item>
     </style>
 
+    <!-- Style for Section, Author, and Date TextView -->
+    <style name="SectionAuthorDateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
     <style name="TrailTextViewStyle">
         <item name="android:layout_marginBottom">@dimen/layout_margin_8</item>
         <item name="android:layout_marginLeft">@dimen/layout_margin</item>

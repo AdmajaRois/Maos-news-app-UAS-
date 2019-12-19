@@ -41,7 +41,7 @@
                     android:id="@+id/section_card"
                     style="@style/TitleTextViewStyle"
                     android:layout_alignParentStart="true"
-                    android:layout_toStartOf="@+id/thumnail_image_card"
+                    android:layout_toStartOf="@+id/thumbnail_image_card"
                     android:text="section" />
 
                 <TextView
@@ -51,11 +51,11 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/section_card"
-                    android:layout_toStartOf="@+id/thumnail_image_card"
+                    android:layout_toStartOf="@+id/thumbnail_image_card"
                     android:text="trailText" />
 
                 <ImageView
-                    android:id="@+id/thumnail_image_card"
+                    android:id="@+id/thumbnail_image_card"
                     android:layout_width="@dimen/thumbnail_image_width"
                     android:layout_height="@dimen/thumbnail_image_height"
                     android:layout_alignParentEnd="true"

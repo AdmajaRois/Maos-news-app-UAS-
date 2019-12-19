@@ -15,10 +15,10 @@ import com.admaja.maos_aplikasiberita.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TechnologyFragment extends Fragment {
+public class EntertainmentFragment extends Fragment {
 
 
-    public TechnologyFragment() {
+    public EntertainmentFragment() {
         // Required empty public constructor
     }
 

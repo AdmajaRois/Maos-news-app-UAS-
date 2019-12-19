@@ -9,7 +9,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <com.example.android.
+    <com.admaja.maos_aplikasiberita.EmptyRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <ProgressBar
+        android:id="@+id/loading_indicatot"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>

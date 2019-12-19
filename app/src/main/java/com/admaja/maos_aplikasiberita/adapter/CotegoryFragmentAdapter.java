@@ -1,9 +1,7 @@
 package com.admaja.maos_aplikasiberita.adapter;
 
 import android.content.Context;
-import android.widget.Switch;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -11,7 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.admaja.maos_aplikasiberita.R;
 import com.admaja.maos_aplikasiberita.fragment.BusinessFragment;
-import com.admaja.maos_aplikasiberita.fragment.EntertainmentFreagment;
+import com.admaja.maos_aplikasiberita.fragment.EntertainmentFragment;
 import com.admaja.maos_aplikasiberita.fragment.HeadlineFragment;
 import com.admaja.maos_aplikasiberita.fragment.HealthFragment;
 import com.admaja.maos_aplikasiberita.fragment.ScienceFragment;
@@ -47,7 +45,7 @@ public class CotegoryFragmentAdapter extends FragmentPagerAdapter {
             case Constants.BUSINESS:
                 return new BusinessFragment();
             case Constants.ENTERTAIMENT:
-                return new EntertainmentFreagment();
+                return new EntertainmentFragment();
             case Constants.HEALTH:
                 return new HealthFragment();
             case Constants.SICENCE:
