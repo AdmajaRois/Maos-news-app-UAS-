@@ -1,6 +1,5 @@
 package com.admaja.maos_aplikasiberita.adapter;
 
-import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +10,6 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 
 import com.admaja.maos_aplikasiberita.R;
-import com.admaja.maos_aplikasiberita.fragment.HomeFragment;
 import com.admaja.maos_aplikasiberita.utils.Constants;
 import com.squareup.picasso.Picasso;
 

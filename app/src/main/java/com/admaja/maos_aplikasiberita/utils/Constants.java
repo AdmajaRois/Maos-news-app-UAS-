@@ -9,6 +9,7 @@ public class Constants {
 
     public static String API_KEY = "59309fa6619942b8ba20256bb34b0e0a";
     public static String NEWS_SOURCE = "id";
+    public static String[] CATEGORY = {"business", "entertainmet", "health", "science", "sports", "technology"};
     public static ArrayList<HashMap<String, String>> dataList = new ArrayList<>();
     public static final String KEY_AUTHOR = "author";
     public static final String KEY_TITLE = "title";

@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".fragment.HeadlineFragment">
 
+
     <ListView
         android:id="@+id/listNewsUtama"
         android:layout_width="match_parent"

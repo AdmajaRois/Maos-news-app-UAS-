@@ -1,11 +1,35 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!-- Light/Day mode application theme. -->
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">@color/whiteDark</item>
+        <item name="cardbackground">@color/white</item>
+        <item name="listbackground">@color/white</item>
+        <item name="textColor">@color/black</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Light/Day mode application theme. -->
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dark_grey</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">@color/dark_grey</item>
+        <item name="cardbackground">@color/black</item>
+        <item name="listbackground">@color/black</item>
+        <item name="textColor">@color/white</item>
+        <item name="tintColor">@color/white</item>
+        <item name="buttonColor">@color/colorAccent</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

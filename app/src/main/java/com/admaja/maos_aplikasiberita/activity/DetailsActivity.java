@@ -23,7 +23,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         url = intent.getStringExtra("url");
-//        loader = findViewById(R.id.loader);
+        loader = findViewById(R.id.progressBar);
         webView = findViewById(R.id.webView);
 
         webView.getSettings().setJavaScriptEnabled(true);
