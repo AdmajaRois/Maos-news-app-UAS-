@@ -4,6 +4,7 @@
         <attr name="backgroundcolor" format="color"/>
         <attr name="cardbackground" format="color"/>
         <attr name="listbackground" format="color"/>
+        <attr name="navigationbackground" format="color"/>
         <attr name="textColor" format="color"/>
         <attr name="tintColor" format="color"/>
         <attr name="buttonColor" format="color"/>

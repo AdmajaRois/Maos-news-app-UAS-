@@ -1,12 +1,7 @@
 package com.admaja.maos_aplikasiberita.fragment;
 
-import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 
@@ -16,9 +11,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 
-import com.admaja.maos_aplikasiberita.MainActivity;
 import com.admaja.maos_aplikasiberita.R;
-import com.admaja.maos_aplikasiberita.adapter.SharedPref;
 
 
 public class SettingFragment extends Fragment {
@@ -28,7 +21,6 @@ public class SettingFragment extends Fragment {
     public SettingFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,10 +41,10 @@ public class SettingFragment extends Fragment {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked){
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-//                    restartApp();
+                    restartApp();
                 }else {
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-//                    restartApp();
+                    restartApp();
                 }
             }
         });
@@ -60,11 +52,12 @@ public class SettingFragment extends Fragment {
         return view;
     }
 
-//    private void restartApp() {
-//        Intent intent = new Intent(getContext(), MainActivity.class);
-//        startActivity(intent);
-//        getActivity().finish();
-//    }
+    private void restartApp() {
+       getFragmentManager().beginTransaction()
+               .replace(R.id.fragment_container,new SettingFragment())
+               .addToBackStack(null)
+               .commit();
+    }
 
 
     // TODO: Rename method, update argument and hook method into UI event

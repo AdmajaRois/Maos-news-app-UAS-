@@ -11,6 +11,7 @@
         <item name="backgroundcolor">@color/whiteDark</item>
         <item name="cardbackground">@color/white</item>
         <item name="listbackground">@color/white</item>
+        <item name="navigationbackground">@color/white</item>
         <item name="textColor">@color/black</item>
         <item name="tintColor">@color/black</item>
         <item name="buttonColor">@color/colorAccent</item>
@@ -27,6 +28,7 @@
         <item name="backgroundcolor">@color/dark_grey</item>
         <item name="cardbackground">@color/black</item>
         <item name="listbackground">@color/black</item>
+        <item name="navigationbackground">@color/black</item>
         <item name="textColor">@color/white</item>
         <item name="tintColor">@color/white</item>
         <item name="buttonColor">@color/colorAccent</item>

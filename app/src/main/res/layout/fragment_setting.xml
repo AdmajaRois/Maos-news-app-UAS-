@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/textColor"
-                android:text="Card View"
+                android:text="About"
                 android:textStyle="bold" />
 
             <TextView
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="?attr/textColor"
                 android:layout_marginTop="8dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\ndo eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas."/>
+                android:text="Ini adalah aplikasi berita yang di kembangkan oleh seorang mahasiswa Politeknik Negeri Malang yang bernama Rois Dwi Admaja"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
